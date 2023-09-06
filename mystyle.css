@@ -4,11 +4,20 @@ body {
 a{
   text-decoration: none;
 }
+p{
+  font-family: "Quicksand";
+}
+h1{
+  font-family: "Lobster Two";
+}
+h2{
+  font-family: "Quicksand";
+}
 /*navbar*/
-
 .topnav {
   overflow:hidden;
-  background-color: #333;
+  background-color: #F999B7;
+  
 }
 
 .topnav a {
@@ -16,13 +25,14 @@ a{
   display: inline;
   color: #f2f2f2;
   text-align:center;
-  padding: 16px 16px;
+  padding: 20px 20px;
   text-decoration: none;
   font-size: 17px;
+  font-family: "Quicksand";
 }
 
 .topnav a.active {
-  background-color: #048eaa;
+  background-color: #FFFFDD;
 }
 
 @media screen and (max-width: 600px) {
@@ -30,7 +40,7 @@ a{
 }
 
 .logo{
-  padding-top: 5px;
+  padding-top: 10px;
 
 }
 
@@ -39,15 +49,38 @@ a{
   text-align: center;
   padding-top: 10%;
   padding-bottom: 20%;
+  font-family: "Quicksand";
 }
 /*ABOUT ME*/
 .whoami{
-  padding-top: 15%;
-  padding-bottom: 10%;
+  padding-top: 5%;
   font-size: 70px;
-  font-family:Herr Von Muellerhoff ;
-  letter-spacing: 3px;
-  word-spacing: 17px;
+  font-family: "Rock Salt";
+  word-spacing: 15px;
+  font-weight: 50;
+}
+.aboutmediv{
+  padding-bottom: 5%;
+}
+.ancorcat:link , ancorcat:visited {
+  background-color: #F9C5D5;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+.ancorcat:hover , ancorcat:active{
+  background-color: #FFFFDD;
+  color:black;
+}
+
+.aboutmelist{
+  padding-top: 10%;
+  padding-left: 45%;
+  padding-bottom: 5%;
+  
+  font-family: "Quicksand";
 }
 /* footer*/
   article {
@@ -62,6 +95,7 @@ a{
     padding: 5px;
     background-color: #000000;
     color: #fff;
+    font-family: "Quicksand"
   }
 
   footer a {
@@ -72,6 +106,7 @@ a{
   padding: 16px 16px;
   text-decoration: none;
   font-size: 17;
+
 
   }
             /* to make the dot of the list desapear*/
