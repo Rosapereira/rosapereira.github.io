@@ -7,11 +7,22 @@ a{
 p{
   font-family: "Quicksand";
 }
-h1{
-  font-family: "Lobster Two";
-}
+
 h2{
-  font-family: "Quicksand";
+  font-family: "Vidaloka";
+  color: #F2789F;
+}
+
+h3{
+  color: #F2789F;
+  font-family: "Rock Salt";
+  word-spacing: 15px;
+  font-weight: 50;
+  font-size: 35px;
+  
+  
+
+
 }
 /*navbar*/
 .topnav {
@@ -31,8 +42,19 @@ h2{
   font-family: "Quicksand";
 }
 
-.topnav a.active {
+
+.active:link , active:visited {
+  background-color: #F999B7;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.active:hover , active:active{
   background-color: #FFFFDD;
+  color:black;
 }
 
 @media screen and (max-width: 600px) {
@@ -44,14 +66,15 @@ h2{
 
 }
 
-/*INDEX*/
+/*/////INDEX////////////////////////*/
 .mainindex{
   text-align: center;
-  padding-top: 10%;
-  padding-bottom: 20%;
+  padding-top: 5%;
+  padding-bottom: 5%;
   font-family: "Quicksand";
 }
-/*ABOUT ME*/
+
+/*/////ABOUT ME/////////////////////*/
 .whoami{
   padding-top: 5%;
   font-size: 70px;
@@ -63,7 +86,7 @@ h2{
   padding-bottom: 5%;
 }
 .ancorcat:link , ancorcat:visited {
-  background-color: #F9C5D5;
+  background-color: #F999B7;
   color: white;
   padding: 14px 25px;
   text-align: center;
@@ -75,24 +98,34 @@ h2{
   color:black;
 }
 
-.aboutmelist{
+.hobbieslist{
+  text-align: center;
   padding-top: 10%;
-  padding-left: 45%;
   padding-bottom: 5%;
-  
   font-family: "Quicksand";
 }
-/* footer*/
-  article {
-    min-height: 100%;
-    display: grid;
-    grid-template-rows: auto 1fr auto;
-  }
-  
+
+.hobbies{
+  display: inline-block;
+  text-align: left;
+}
+
+.workexperience{
+  text-align: center;
+  padding-top: 5%;
+}
+
+.workexperiencetable{
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 5%;
+}
+
+
+/*//////footer//////////////////////////////*/
   footer {
     display: flex;
     justify-content: center;
-    padding: 5px;
     background-color: #000000;
     color: #fff;
     font-family: "Quicksand"
@@ -109,7 +142,7 @@ h2{
 
 
   }
-            /* to make the dot of the list desapear*/
+/*/////// to make the dot of the list desapear//////////////////*/
   .footerlist{
     list-style: none;
   }
