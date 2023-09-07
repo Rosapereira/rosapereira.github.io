@@ -13,6 +13,7 @@ p{
 h2{
   font-family: "Vidaloka";
   color: #F2789F;
+  text-align: center;
 }
 
 h3{
@@ -116,7 +117,6 @@ h3{
 }
 
 .workexperience{
-  text-align: center;
   padding-top: 5%;
 }
 
@@ -142,6 +142,17 @@ h3{
 .dashboarddiv p{
   padding-top: 5%;
 }
+
+/*/////FAQ///////////////////*/
+.faqlist{
+  list-style-type: none;
+  padding-top: 5%;
+}
+
+.faqdiv{
+  padding-top: 5%;
+  padding-bottom: 10%;
+}
 /*//////footer//////////////////////////////*/
 
 #footer {
@@ -165,6 +176,8 @@ h3{
   font-size: 12px;
 }
 
-
-
+/*/////FAQ///////////////////*/
+.faqlist{
+  list-style-type: none;
+}
   
