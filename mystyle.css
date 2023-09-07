@@ -65,9 +65,7 @@ h3{
   color:black;
 }
 
-@media screen and (max-width: 600px) {
-  .topnav a:not(:first-child) {display:inline-block}
-}
+
 
 /*/////INDEX////////////////////////*/
 .mainindex{
@@ -157,7 +155,7 @@ h3{
 
 #footer {
   text-align: center;
-  background-color: #F9C5D5;
+  background-color: #F999B7;
   padding: 5px;
   bottom: 0;
   width: 100%;
