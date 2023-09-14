@@ -1,7 +1,6 @@
 body {
     background-color: rgb(255, 255, 255);
     margin: 0;
-    padding: 0;
   }
 
 a{
@@ -11,10 +10,22 @@ a{
 p{
   font-family: "Quicksand";
 }
-
+hr{
+  color: lightgray;
+  border-top:dotted 8px;
+  border-left: 0;
+  border-bottom: 0;
+  border-right: 0;
+  margin-left: 46%;
+  margin-right: 46%;
+  padding-bottom: 5%;
+  
+  
+}
 h2{
   font-family: "Vidaloka";
-  font-weight: 40;
+  font-weight: 50;
+  font-size: 40px;
   color: #F2789F;
   text-align: center;
   
@@ -32,55 +43,53 @@ h3{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 10%;
+  padding-bottom: 5%;
   width: 15%;
 }
+
 
 /*navbar*/
 .topnav {
   overflow:hidden;
-  background-color: #F999B7;
+  background-color: #F9C5D5;
+  width: 100%;
 }
-
 .topnav a {
   float: left;
   display: inline;
-  color: #f2f2f2;
   text-align:center;
-  padding: 20px 20px;
-  text-decoration: none;
+  color: white;
   font-size: 17px;
   font-family: "Quicksand";
 }
-
-.active:link , active:visited {
-  background-color: #F999B7;
-  color: white;
-  padding: 14px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
+.navbarancor{
+  padding-top: 5px;
 }
-
+.active:link , active:visited {
+  background-color: #F9C5D5;
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 5px;
+}
 .active:hover , active:active{
   background-color: #FFFFDD;
   color:black;
 }
 
 /*/////INDEX////////////////////////*/
-.mainindex{
+main{
   text-align: center;
   padding-top: 10%;
   font-family: "Quicksand";
 }
-
 .indextable{
   padding-bottom: 10%;
 }
 
 /*/////ABOUT ME/////////////////////*/
 .whoami{
-  padding-top: 5%;
   font-size: 70px;
   font-family: "Rock Salt";
   word-spacing: 15px;
@@ -92,22 +101,26 @@ h3{
 }
 
 .ancorcat:link , ancorcat:visited {
-  background-color: #F999B7;
+  background-color: #F9C5D5;
   color: white;
   padding: 14px 25px;
   text-align: center;
-  text-decoration: none;
   display: inline-block;
 }
-
 .ancorcat:hover , ancorcat:active{
   background-color: #FFFFDD;
   color:black;
 }
+.catbutton{
+  padding-bottom: 5%;
+}
+.catbutton p{
+  color: white;
+  text-align: center;
+}
 
 .hobbieslist{
   text-align: center;
-  padding-top: 10%;
   padding-bottom: 5%;
   font-family: "Quicksand";
 }
@@ -115,10 +128,6 @@ h3{
 .hobbies{
   display: inline-block;
   text-align: left;
-}
-
-.workexperience{
-  padding-top: 5%;
 }
 
 .workexperiencetable{
@@ -131,7 +140,6 @@ h3{
 
 .dashboarddiv{
   text-align: center;
-  padding-top: 5%;
   padding-bottom: 10%;
 }
 .dasboardtable{
@@ -140,6 +148,7 @@ h3{
   margin-right: auto;
   margin-left: auto;
   border-color: lightgray;
+  width: 70%;
 }
 .dasboardtable th{
   text-align: left;
@@ -151,7 +160,7 @@ h3{
   padding-top: 5%;
 }
 .progresstext{
-  padding-bottom: 2%;
+  padding-bottom: 5%;
 }
 .progressdiv{
   padding-bottom: 5%;
@@ -192,41 +201,28 @@ h3{
     width: 10%;
   }
 }
-/*
-.progress{
-  background-color: #ffddef;
-  border-radius: 10px;
-  height: 20PX;
-  width:50%;
-  margin-left: 25%;
-}
 
-.progress::after{
-  content:'';
-  background-color: rgb(235, 238, 158);
-  display: block;
-  width:20%;
-  height: 20px;
-  border-radius: 10px;
-}
-*/
 /*/////FAQ///////////////////*/
+.faqdiv{
+  text-align: justify;
+  padding-bottom: 5%;
+  padding-right: 5%;
+  padding-left:5%
+  
+
+}
 .faqlist{
   list-style-type: none;
   padding-top: 5%;
+
 }
 
-.faqdiv{
-  padding-top: 5%;
-  padding-bottom: 10%;
-}
 
 /*//////footer//////////////////////////////*/
 #footer {
   text-align: center;
-  background-color: #F999B7;
+  background-color: #F9C5D5;
   padding: 5px;
-  bottom: 0;
   width: 100%;
 }
 
@@ -238,7 +234,6 @@ h3{
 }
 
 #footer p {
-  margin: 1%;
   color: white;
   font-family: "quicksand";
   font-size: 12px;
