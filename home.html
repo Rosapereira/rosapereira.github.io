@@ -4,20 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My profile</title>
-
-    <link rel="stylesheet" href="mystyle.css">
-    <link rel="stylesheet" href="javasr.js">
-
+    <link rel="stylesheet" href="./styles/indexcss.css">
+    <link rel="stylesheet" href="./javascript/javascript.js">
+    <!---fonts-->
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Vidaloka" />
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Quicksand" />
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Rock+Salt" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
-    <link rel="icon" type="image/x-icon" href="./favicon-32x32.png">
-    
-    
+    <!---fav icon-->
+    <link rel="icon" type="image/x-icon" href="./favicon-32x32.png"> 
+
 </head>
 <body>
+
     <div class="topnav" id="myTopnav">
         
         <div class="topnav-links">
@@ -35,38 +34,40 @@
     
 <hr class="hrindex">
 
-<main>
-    <div class="faqdiv">
-        <h2>Frequent ask questions</h2>
-        <ul class="faqlist">
-            <li><p>1. How can you print a document from your laptop at HZ?</p></li>
-            <p>...</p>
-            <li><p>2. How can you scan a document and send it to your laptop at HZ?</p></li>
-            <p>...</p>
-            <li><p>3. How can I buy something (like when I sign up for the IT introduction event) on the HZ web shop?</p></li>
-            <p>...</p>
-            <li><p>4. How can you book a project space in one of the wings?</p></li>
-            <p>...</p>
-            <li><p>5. What are the instructions if you want to park your car at the HZ parking lot?</p></li>
-            <p>...</p>
-        </ul>
+<main class="container-home">
+    <div class="profile-text">
+        <div class="pngConteiner">
+            <img class="profilepic" src="./resources/RosaPereira.png" alt="Rosa profile picture" width="200">
+        </div>
+
+        <div class="textbox">
+            <h1>
+                Rosa Pereira
+            </h1>
+            <p>I am Portuguese.</p>
+            <p>I ❤️ coffee and Nature.</p>
+            <p>HZ - University of applied science</p>
+            <p>On this website <br> you can discover my university projects
+            <br> and learn a bit more about me!</p>
+        </div>
     </div>
-   
-<img class="logo" src="./resources/hzlogo.png" alt="university of applied science logo">       
+
+    <div class="logopic">
+        <img id="logo" src="./resources/hzlogo.png" alt="university of applied science logo" width="150">   
+    </div>
+
 </main>
 
 <footer>  
+       
     <div id="footer">
         <p>
-            <a href="./otherlinks.html">HZ</a>
-            <a href="./blog.html">Blog</a>
-            <a href="./faq.html">FAQ</a>
             <a href="https://linktr.ee/espigapurpura" draggable="true">Linktree<img src="./resources/linktreelogo.png" alt="linktree" width="15px"></a>
           </p>
         <p>Rosa Pereira © 2023</p>
       </div>     
     </footer> 
-    
+
     <script>
         function myFunction() {
           var x = document.getElementById("myTopnav");
@@ -77,6 +78,5 @@
           }
         }
     </script>
-
 </body>
 </html>

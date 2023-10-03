@@ -6,33 +6,38 @@
     <title>about me</title>
 
     <link rel="stylesheet" href="mystyle.css">
-    <link rel="stylesheet" href="javasr.js">
-
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lobster+Two" />
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Quicksand" />
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Rock+Salt" />
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Vidaloka" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
+
     <link rel="icon" type="image/x-icon" href="./favicon-32x32.png">
     
     
 </head>
 <body>
-    <nav class="navbar">
-        <div class="topnav">
-          <a href="./index.html" class="active"><img src="./resources/home.png" alt="home icon" width="30"></a>
-          <div class="navbarancor">
-          <a href="./aboutme.html" class="active">About me</a>
-          <a href="./dashboard.html" class="active">Dashboard</a>
-          </div>
-        </div>
-    </nav>
+    <div class="topnav" id="myTopnav">
+        
+        <div class="topnav-links">
+            <a href="./index.html" class="active">Home</a>
+            <a href="./aboutme.html" class="active">About me</a>
+            <a href="./dashboard.html" class="active">Dashboard</a>
+            <a href="./otherlinks.html">HZ</a>
+            <a href="./blog.html">Blog</a>
+            <a href="./faq.html">FAQ</a>
+        </div> 
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+            </a>
+    </div>
+    
+<hr class="hrindex">
     
 <main>
-    <h1 class="whoami" style="text-align: center;" > 
-        <a href="./resources/Rosa Pereira -  Who am I.pdf" draggable="true" style="color: #F2789F;"> Who am I?</a>
-    </h1>
+    
+        <a href="./resources/Rosa Pereira -  Who am I.pdf" draggable="true" style="color: #323232;"><h3 class="whoami" style="text-align: center;">  Who am I?</h3> </a>
+    
 
     <div class="aboutmediv">
         <p style="text-align: center;">
@@ -52,7 +57,7 @@
     
     <div class="hobbieslist">
         <h2>Hobbies</h2>
-    <ol class="hobbies" >
+    <ol class="hobbies" style = "text-decoration: underline";>
         
             <li> 
                 <a href="https://www.goodreads.com/review/list/146707986-rosa?utf8=%E2%9C%93&utf8=%E2%9C%93&ref=nav_mybooks&title=rosa&sort=author&order=d" draggable="true" style="color: black;">
@@ -109,6 +114,16 @@
         <p>Rosa Pereira © 2023</p>
       </div>     
     </footer> 
+<script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+</script>
 </body>
 </html>
 

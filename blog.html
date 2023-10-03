@@ -18,15 +18,22 @@
     
 </head>
 <body>
-    <nav class="navbar">
-        <div class="topnav" id="myTopnav">
-          <a href="./index.html" class="active"><img src="./resources/home.png" alt="home icon" width="30"></a>
-          <div class="navbarancor">
-          <a href="./aboutme.html" class="active">About me</a>
-          <a href="./dashboard.html" class="active">Dashboard</a>
-          </div>
-        </div>
-    </nav>
+  <div class="topnav" id="myTopnav">
+        
+    <div class="topnav-links">
+        <a href="./index.html" class="active">Home</a>
+        <a href="./aboutme.html" class="active">About me</a>
+        <a href="./dashboard.html" class="active">Dashboard</a>
+        <a href="./otherlinks.html">HZ</a>
+        <a href="./blog.html">Blog</a>
+        <a href="./faq.html">FAQ</a>
+    </div> 
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+        </a>
+</div>
+
+<hr class="hrindex">
     <img src="./resources/Gallaxy.jpg" alt="background image Gallaxy" width="100%">
 <main>
  
@@ -54,6 +61,17 @@ It must at least contain articles on the following:
         <p>Rosa Pereira © 2023</p>
       </div>     
     </footer> 
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+  </script>
 
 </body>
 </html>

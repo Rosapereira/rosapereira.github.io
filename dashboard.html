@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="javasr.js">
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Vidaloka" />
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Quicksand" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Rock+Salt" />
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
     
@@ -15,22 +17,27 @@
     
 </head>
 <body>
-<nav class="navbar">
-    <div class="topnav" id="myTopnav">
-      <a href="./index.html" class="active"><img src="./resources/home.png" alt="home icon" width="30"></a>
-      <div class="navbarancor">
-      <a href="./aboutme.html" class="active">About me</a>
-      <a href="./dashboard.html" class="active">Dashboard</a>
-      </div>
-    </div>
-</nav>
-    
+  <div class="topnav" id="myTopnav">
+        
+    <div class="topnav-links">
+        <a href="./index.html" class="active">Home</a>
+        <a href="./aboutme.html" class="active">About me</a>
+        <a href="./dashboard.html" class="active">Dashboard</a>
+        <a href="./otherlinks.html">HZ</a>
+        <a href="./blog.html">Blog</a>
+        <a href="./faq.html">FAQ</a>
+    </div> 
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+        </a>
+</div>
+
+<hr class="hrindex">
+
 <main>
  <div class="dashboarddiv">
   <div class="progressdiv">
-    <div class="progresstext">
-      <h2>Progress</h2>
-    </div>
+    <h2>Progress</h2>
     <div class="progressbar">
       <div class="progress"><span>10%</span></div>
     </div>
@@ -186,8 +193,6 @@
 </div>
 <hr>
 
-<p>Hope you enjoy my work.</p>
-
 <img class="logo" src="./resources/hzlogo.png" alt="university of applied science logo"> 
 </main>
 
@@ -202,6 +207,17 @@
       <p>Rosa Pereira © 2023</p>
     </div>     
   </footer> 
+
+<script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+</script>
 </body>
 </html>
 

@@ -16,35 +16,45 @@
 
 </head>
 <body>
-    <nav class="navbar">
-        <div class="topnav" id="myTopnav">
-          <a href="./index.html" class="active"><img src="./resources/home.png" alt="home icon" width="30"></a>
-          <div class="navbarancor">
-          <a href="./aboutme.html" class="active">About me</a>
-          <a href="./dashboard.html" class="active">Dashboard</a>
-          </div>
-        </div>
-    </nav>
+    <div class="topnav" id="myTopnav">
+        
+        <div class="topnav-links">
+            <a href="./index.html" class="active">Home</a>
+            <a href="./aboutme.html" class="active">About me</a>
+            <a href="./dashboard.html" class="active">Dashboard</a>
+            <a href="./otherlinks.html">HZ</a>
+            <a href="./blog.html">Blog</a>
+            <a href="./faq.html">FAQ</a>
+        </div> 
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+            </a>
+    </div>
+    
+<hr class="hrindex">
 
-<main>
-    <table class="indextable" cellspacing="20">
-        <tr>
-            <img src="./resources/RosaPereira.png" alt="Rosa profile picture" width="150">
-            <tr>
-            <h3>
+<main class="container-home">
+    <div class="profile-text">
+        <div class="pngConteiner">
+            <img class="profilepic" src="./resources/RosaPereira.png" alt="Rosa profile picture" width="200">
+        </div>
+
+        <div class="textbox">
+            <h1>
                 Rosa Pereira
-            </h3>
+            </h1>
             <p>I am Portuguese.</p>
             <p>I ❤️ coffee and Nature.</p>
             <p>HZ - University of applied science</p>
-            <p>On this website, you can discover my university projects
-            <br> and learn a bit more about me!   
-            </p>
-            </tr>
-        </tr>
-    </table>
+            <p>On this website <br> you can discover my university projects
+            <br> and learn a bit more about me!</p>
+        </div>
+    </div>
 
-    <img class="logo" src="./resources/hzlogo.png" alt="university of applied science logo">   
+    <div class="logopic">
+        <img id="logo" src="./resources/hzlogo.png" alt="university of applied science logo" width="150">   
+    </div>
+
 </main>
 
 <footer>  
@@ -59,6 +69,17 @@
         <p>Rosa Pereira © 2023</p>
       </div>     
     </footer> 
+
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+    </script>
 
 </body>
 </html>
